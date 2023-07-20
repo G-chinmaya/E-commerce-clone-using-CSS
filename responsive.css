@@ -1,0 +1,33 @@
+@media screen and (max-width:1170px) {
+    body{
+        background-color: aquamarine;
+    }
+    nav{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding: 1.2vw;
+    }
+    header{
+        height: 28vw;
+    }
+    .img1 img2{
+        justify-content: center;
+    }
+    /* .mainimg{
+        height: 33vh;
+    }
+    .mainimg2{
+        height: 33vh;
+    } */
+    .scroll_item{
+        width: 21vw;
+        padding: 0 15vw;
+    }
+    .searchbar input{
+        height: 26px;
+    }
+    .lines{
+        transform: translate(72px);
+    }
+}

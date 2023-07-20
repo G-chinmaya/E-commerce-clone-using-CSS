@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto+Condensed:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto+Condensed:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+:root {
+    --main-bg-color: #2455f4;
+}
+hr{
+    /* height: 5px; */
+    color:goldenrod;
+}
+header {
+    background-color: var(--main-bg-color);
+    height: 11.5vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1px 0 0 0;
+}
+
+.img1 {
+    width: 10vw;
+    padding: 0 3px;
+}
+
+.img2{
+    width: 10.7vw;
+   
+}
+.mainimg{
+    padding: 0px 2px;
+    width: 48vw;
+    height: 35vh;
+    padding: 0vw 4px 0px 2vw;
+}
+.mainimg2{
+    height: 35vh;
+    width: 48vw;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2vh;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgb(0, 255, 213);
+    font-weight: bold;
+}
+.searchbar{
+        display: flex;
+        align-items: center;
+        padding: 6px;
+}
+.searchbar input{
+        width: 30vw;
+        height: 32px;
+        border-radius: 3px;
+        margin: 0 4px 0 38px;
+        padding: 0 14px;
+}
+.btn:hover{
+    background-color: orange;
+    font-weight: 900;
+}
+.btn search{
+        width: 77px;
+        height: 28px;
+        border: 3px solid black
+        
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    margin: 12px 0;
+}
+.slider{
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin: 1px auto;
+        overflow: hidden;
+}
+.scroll{
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+}
+.scroll_item{
+    padding: 0px 2px;
+        width: 21vw;
+        /* text-align: center; */
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+}
+.scroll h3{
+    text-align: start;
+    font-family: 'Poppins', sans-serif;
+}
+.lines{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 550;
+}
+
+.container{
+    min-height: 80vh;
+}
+footer {
+    height: 6vh;
+    background-color: var(--main-bg-color);
+    color: yellow;
+    font-family: 'Poppins', sans-serif;
+}

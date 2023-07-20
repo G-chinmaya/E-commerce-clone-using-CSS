@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto+Condensed:ital@0;1&display=swap');
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0 10px 0 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.my-1{
+    margin: 3px 0;
+}
